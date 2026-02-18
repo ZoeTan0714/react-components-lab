@@ -42,7 +42,7 @@ function App () {
     ];
 
   return (
-  <>
+  <div>
     <h1>Local Weather</h1>
     <section>
       {weatherForecasts.map ((weatherForecasts,index) => (
@@ -56,7 +56,7 @@ function App () {
         />
       ))}
     </section>
-  </>
+  </div>
   );
 }
 
