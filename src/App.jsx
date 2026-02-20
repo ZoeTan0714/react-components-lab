@@ -45,14 +45,14 @@ function App () {
   <div>
     <h1>Local Weather</h1>
     <section>
-      {weatherForecasts.map ((weatherForecasts,index) => (
+      {weatherForecasts.map ((weatherForecast,index) => (
         <WeatherForecast
         key={index}
-        day={weatherForecasts.day}
-        img={weatherForecasts.img}
-        imgAlt={weatherForecasts.imgAlt}
-        conditions={weatherForecasts.conditions}
-        time={weatherForecasts.time}
+        day={weatherForecast.day}
+        img={weatherForecast.img}
+        imgAlt={weatherForecast.imgAlt}
+        conditions={weatherForecast.conditions}
+        time={weatherForecast.time}
         />
       ))}
     </section>
