@@ -44,7 +44,6 @@ function App () {
   return (
   <div>
     <h1>Local Weather</h1>
-    <section>Testing</section>
     <section>
       {weatherForecasts.map ((weatherForecast,index) => (
         <WeatherForecast
